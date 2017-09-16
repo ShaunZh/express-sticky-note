@@ -1,0 +1,20 @@
+{
+  "name": "express-sticky-note",
+  "version": "1.0.0",
+  "description": "node.js的便利贴",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaunZh/express-sticky-note.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaunZh/express-sticky-note/issues"
+  },
+  "homepage": "https://github.com/ShaunZh/express-sticky-note#readme"
+}
