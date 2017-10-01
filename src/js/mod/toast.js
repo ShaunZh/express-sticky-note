@@ -2,12 +2,12 @@
 * @Author: Marte
 * @Date:   2017-09-17 15:56:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-09-17 19:37:16
+* @Last Modified time: 2017-09-28 16:44:10
 */
 
 'use strict';
 
-var $ = require('../lib/jquery.min.js');
+require('scss/toast.scss')
 
 function toast(msg, time) {
   this.msg = msg;

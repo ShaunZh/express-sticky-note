@@ -7,11 +7,14 @@ var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
+var api = require('./routes/api');
 
 var app = express();
 
 // view engine setup
+// 设置views的路径
 app.set('views', path.join(__dirname, 'views'));
+// 设置模板引擎为 ejs
 app.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public
@@ -32,6 +35,7 @@ app.use('/student', function(req, res, next) {
 });
 app.use('/', index);
 app.use('/users', users);
+app.use('/api', api);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
